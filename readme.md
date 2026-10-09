@@ -22,6 +22,12 @@ project/source/test/events_test.parquet
 ## Вариант 2 - One-shot скрипт через Docker
 1. Просто выполнить в консоли: `. docker-one-shot.sh`
 
+## Вариант 3 - Свои интерпретаторы
+1. Зайти в папку `project`
+2. Установить зависимости: `. install.sh`
+3. (Точка входа 1) Запустить jupyter: `. jupyter.sh` и прогнать `main.ipynb`
+4. (Точка входа 2) Выполнить основной скрипт: `python -m main`
+
 -----
 
 # Результаты
@@ -29,12 +35,12 @@ project/source/test/events_test.parquet
 
 |Путь|Источник|Что это|
 |:---|:---|:---|
-|out/plot_1.png|test-датасет|Лидерборд по test-датасету| 
-|out/test_events.csv|test-датасет|Обогащенная таблица events| 
-|out/test_stats.csv|test-датасет|Статистика по каждому матчу| 
-|out/test_ratings.csv|test-датасет|Статистика по каждому игроку| 
-|out/train_events.csv|train-датасет|Обогащенная таблица events| 
-|out/train_stats.csv|train-датасет|Статистика по каждому матчу| 
-|out/weights_D.csv|train-датасет|Веса W для защитника| 
-|out/weights_F.csv|train-датасет|Веса W для нападающего|
+|project/out/plot_1.png|test-датасет|Лидерборд по test-датасету| 
+|project/out/test_events.csv|test-датасет|Обогащенная таблица events| 
+|project/out/test_stats.csv|test-датасет|Статистика по каждому матчу| 
+|project/out/test_ratings.csv|test-датасет|Статистика по каждому игроку| 
+|project/out/train_events.csv|train-датасет|Обогащенная таблица events| 
+|project/out/train_stats.csv|train-датасет|Статистика по каждому матчу| 
+|project/out/weights_D.csv|train-датасет|Веса W для защитника| 
+|project/out/weights_F.csv|train-датасет|Веса W для нападающего|
 
