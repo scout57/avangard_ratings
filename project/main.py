@@ -119,3 +119,9 @@ plotter.plot_player_ratings(axes[2], ratings, 'rating_total',   toi_col='p_dur_t
 
 fig.show()
 fig.savefig(f'{prefix}/plot_1.png')
+
+
+
+
+
+print('Скрипт успешно выполнен!. Смотри результаты в ./out')
