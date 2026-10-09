@@ -1,1 +1,0 @@
-# avangard_ratings
